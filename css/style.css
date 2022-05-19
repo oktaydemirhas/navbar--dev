@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #1f2f3a;
+}
+
+.menu-bar{
+    /* div text ortalama */
+    text-align: center;
+}
+
+.menu-bar ul{
+    /* yatay hale getirme*/
+    display: inline-flex;
+    list-style: none;
+    font-size: x-large;
+    border-bottom: 1px solid #3d4144;
+}
+
+.menu-bar ul li{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.menu-bar ul li:nth-child(1) a{
+    color: rgb(221, 107, 32);
+}
+
+.menu-bar ul li:nth-child(2) a{
+    color: rgb(233, 30, 99);
+}
+
+.menu-bar ul li:nth-child(3) a{
+    color: yellow;
+}
+
+.menu-bar ul li:nth-child(4) a{
+    color: purple;
+}
+
+.menu-bar ul li:nth-child(5) a{
+    color: pink;
+}
+
+.menu-bar ul li:nth-child(6) a{
+    color: rgb(52, 152, 219);
+}
+
+.menu-bar ul li:nth-child(7) a{
+    color: rgb(85, 182, 68);
+}
+
+.menu-bar ul li:nth-child(8) a{
+    color: green;
+}
+
+.menu-bar ul li:nth-child(9) a{
+    color: #c01f54;
+}
+
+.menu-bar ul li:nth-child(1):hover{
+    border-bottom: 4px solid rgb(221, 107, 32);
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.menu-bar ul li:nth-child(2):hover{
+    border-bottom: 4px solid rgb(233, 30, 99);
+    padding-bottom: 0;
+}
+
+.menu-bar ul li:nth-child(3):hover{
+    border-bottom: 4px solid yellow;
+    padding-bottom: 0;
+}
+
+.menu-bar ul li:nth-child(4):hover{
+    border-bottom: 4px solid purple;
+    padding-bottom: 0;
+}
+
+.menu-bar ul li:nth-child(5):hover{
+    border-bottom: 4px solid pink;
+    padding-bottom: 0;
+}
+
+.menu-bar ul li:nth-child(6):hover{
+    border-bottom: 4px solid rgb(52, 152, 219);
+    padding-bottom: 0;
+}
+
+.menu-bar ul li:nth-child(7):hover{
+    border-bottom: 4px solid rgb(85, 182, 68);
+    padding-bottom: 0;
+}
+
+.menu-bar ul li:nth-child(8):hover{
+    border-bottom: 4px solid green;
+    padding-bottom: 0;
+}
+
+.menu-bar ul li:nth-child(9):hover{
+    border-bottom: 4px solid rgb(233, 30, 99);
+    padding-bottom: 0;
+}
+
+.menu-bar ul li:nth-child(n+2){
+    margin-left: 15px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+}
+
+.section{
+    padding-top: 2rem;
+    text-align: center;
+    
+}
+
+.boxes{
+    display: inline;
+}
